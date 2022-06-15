@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="convex">
+<LineStyle><width>3.0</width></LineStyle><PolyStyle><color>64000000</color></PolyStyle>
+</Style>
+<Style id="neighbor">
+<LineStyle><width>3.0</width></LineStyle>
+</Style>
+<Placemark><name>Apartment</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.25769715127021,34.04063885742853</coordinates></Point>
+</Placemark>
+<Placemark><name>Chase Bank</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.26168480451697,34.04164809304171</coordinates></Point>
+</Placemark>
+<Placemark><name>Centle Monster</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.25495451197153,34.04340488195623</coordinates></Point>
+</Placemark>
+<Placemark><name>Starbucks</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.25339479159103,34.039950184246024</coordinates></Point>
+</Placemark>
+<Placemark><name>Tu Talla</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.25430674268391,34.03610054384179</coordinates></Point>
+</Placemark>
+<Placemark><name>Laurel's House</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.25882358267279,34.03474912746054</coordinates></Point>
+</Placemark>
+<Placemark><name>Kinema Fitness</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.26124247594043,34.03871510807627</coordinates></Point>
+</Placemark>
+<Placemark><name>Smw Auto Park</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2526808647041,34.038528406252226</coordinates></Point>
+</Placemark>
+<Placemark><name>Richline Text</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.25994076588645,34.03074577486716</coordinates></Point>
+</Placemark>
+<Placemark><name>CVS</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.25784680514333,34.04563817357083</coordinates></Point>
+</Placemark>
+<Placemark><name>Staples Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.26719081827046,34.043132437689295</coordinates></Point>
+</Placemark>
+<Placemark><name>Hospital Cal</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.24679073371546,34.040919936365185</coordinates></Point>
+</Placemark>
+<Placemark><name>Maple Plaza</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2561173202666,34.035802913880495</coordinates></Point>
+</Placemark>
+<Placemark><name>Convex Hull</name>
+<styleUrl>#convex</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing>
+<coordinates>
+-118.25994076588645,34.03074577486716
+-118.26719081827046,34.043132437689295
+-118.25784680514333,34.04563817357083
+-118.24679073371546,34.040919936365185
+-118.25994076588645,34.03074577486716
+</coordinates>
+</LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+<Placemark><styleUrl>#neighbor</styleUrl><LineString>
+<coordinates>
+-118.25769715127021,34.04063885742853
+-118.25495451197153,34.04340488195623
+</coordinates>
+</LineString></Placemark>
+<Placemark><styleUrl>#neighbor</styleUrl><LineString>
+<coordinates>
+-118.25769715127021,34.04063885742853
+-118.26124247594043,34.03871510807627
+</coordinates>
+</LineString></Placemark>
+<Placemark><styleUrl>#neighbor</styleUrl><LineString>
+<coordinates>
+-118.25769715127021,34.04063885742853
+-118.26168480451697,34.04164809304171
+</coordinates>
+</LineString></Placemark>
+<Placemark><styleUrl>#neighbor</styleUrl><LineString>
+<coordinates>
+-118.25769715127021,34.04063885742853
+-118.25339479159103,34.039950184246024
+</coordinates>
+</LineString></Placemark>
+</Document></kml>
